@@ -1,5 +1,16 @@
-#word {
+body {
+  width: 60%;
+  height: 100vh;
+  margin: 0 auto;
+  line-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.text .cls-1 {
   fill: none;
-  stroke: #000;
+  stroke: #ffd05b;
   stroke-miterlimit: 10;
 }
