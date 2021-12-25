@@ -13,15 +13,17 @@ new Vivus(
   }
 );
 
-var logo = new Vivus(
+new Vivus(
   "text",
   {
+    start: "autostart",
     type: "delayed",
     duration: 1000,
     animTimingFunction: Vivus.EASE,
-    start: "autostart",
   },
-  function (obj) {
-    logo.reset().play();
+  function (logo) {
+    setTimeout(function () {
+      logo.reset().play();
+    }, 3000);
   }
 );
