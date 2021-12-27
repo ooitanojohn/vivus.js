@@ -1,0 +1,10 @@
+/* snow.js */
+#canvas {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddffff;
+  background-image: url("../img/tree.jpg");
+  min-height: 100vh;
+  display: inline;
+}
