@@ -13,6 +13,7 @@
 - figma から書き出しで出来るようにしておきたい
 - snow.jsの理屈読みたい
 - マウスカーソルをクリスマスっぽくしたい
+- canvasタグ inline position z-index変えても重ねられない
 ### 参考サイト集
 #### vivus.js
 - https://liginc.co.jp/576495
