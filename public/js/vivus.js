@@ -1,5 +1,5 @@
 new Vivus(
-  "canvas",
+  "car",
   {
     start: "autostart",
     type: "delayed",

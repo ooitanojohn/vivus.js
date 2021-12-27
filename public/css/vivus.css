@@ -1,16 +1,30 @@
 body {
-  width: 60%;
+  width: 80%;
   height: 100vh;
   margin: 0 auto;
-  line-height: 100vh;
 }
-
 .container {
   text-align: center;
 }
+.container:nth-of-type(1) {
+  /* position: absolute; */
+  z-index: 1000;
+}
 
+/* vivus.js */
 .text .cls-1 {
   fill: none;
   stroke: #ffd05b;
   stroke-miterlimit: 10;
+}
+
+/* snow.js */
+#canvas {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #08233e;
+  background-image: url("../img/tree.jpg");
+  min-height: 100vh;
+  display: inline;
 }
